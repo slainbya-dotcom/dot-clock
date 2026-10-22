@@ -8,7 +8,11 @@
 
 use std::{fs, path::PathBuf, sync::Mutex};
 
-use tauri::{AppHandle, Emitter, Manager, State, WindowEvent};
+use tauri::{
+    menu::{Menu, MenuItem, PredefinedMenuItem},
+    tray::{MouseButton, MouseButtonState, TrayIconBuilder, TrayIconEvent},
+    AppHandle, Emitter, Manager, State, WindowEvent,
+};
 use tauri_plugin_window_state::{AppHandleExt, StateFlags};
 
 struct Store {
@@ -64,6 +68,61 @@ fn quit(app: AppHandle) {
     app.exit(0);
 }
 
+/// Puts the app in the system tray (Windows) / menu bar (macOS) instead of the
+/// taskbar / Dock. Left-click the icon to bring the widget back; right-click
+/// for the menu.
+fn build_tray(app: &tauri::App) -> tauri::Result<()> {
+    let toggle = MenuItem::with_id(app, "toggle", "Show / hide widget", true, None::<&str>)?;
+    let settings = MenuItem::with_id(app, "settings", "Settings…", true, None::<&str>)?;
+    let centre = MenuItem::with_id(app, "centre", "Move widget to centre", true, None::<&str>)?;
+    let sep = PredefinedMenuItem::separator(app)?;
+    let quit_item = MenuItem::with_id(app, "quit", "Quit", true, None::<&str>)?;
+    let menu = Menu::with_items(app, &[&toggle, &settings, &centre, &sep, &quit_item])?;
+
+    let mut tray = TrayIconBuilder::with_id("tray")
+        .tooltip(app.package_info().name.clone())
+        .menu(&menu)
+        .menu_on_left_click(false)
+        .on_menu_event(|app, event| match event.id.as_ref() {
+            "toggle" => {
+                if let Some(w) = app.get_webview_window("main") {
+                    if w.is_visible().unwrap_or(false) {
+                        let _ = w.hide();
+                    } else {
+                        let _ = w.show();
+                        let _ = w.set_focus();
+                    }
+                }
+            }
+            "settings" => {
+                let _ = open_settings(app.clone(), None);
+            }
+            "centre" => {
+                let _ = recenter_widget(app.clone());
+            }
+            "quit" => quit(app.clone()),
+            _ => {}
+        })
+        .on_tray_icon_event(|tray, event| {
+            if let TrayIconEvent::Click {
+                button: MouseButton::Left,
+                button_state: MouseButtonState::Up,
+                ..
+            } = event
+            {
+                if let Some(w) = tray.app_handle().get_webview_window("main") {
+                    let _ = w.show();
+                    let _ = w.set_focus();
+                }
+            }
+        });
+    if let Some(icon) = app.default_window_icon() {
+        tray = tray.icon(icon.clone());
+    }
+    tray.build(app)?;
+    Ok(())
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
@@ -99,6 +158,10 @@ pub fn run() {
             if let Some(w) = app.get_webview_window("main") {
                 let _ = w.show();
             }
+            // Live in the tray / menu bar rather than the taskbar / Dock.
+            #[cfg(target_os = "macos")]
+            app.set_activation_policy(tauri::ActivationPolicy::Accessory);
+            build_tray(app)?;
             Ok(())
         })
         .on_window_event(|window, event| {

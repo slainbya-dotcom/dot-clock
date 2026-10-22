@@ -23,7 +23,7 @@ The `.msi` has to be built on Windows and the `.dmg` on macOS. You can build the
    npm run build:win
    ```
 
-5. The installer is written to `src-tauri\target\release\bundle\msi\Dot Clock_1.0.0_x64_en-US.msi`.
+5. The installer is written to `src-tauri\target\release\bundle\msi\Dot Clock_1.1.0_x64_en-US.msi`.
 
 If you see "running scripts is disabled on this system", run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, then try again.
 

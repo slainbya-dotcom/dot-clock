@@ -373,7 +373,7 @@
   bindSearches();
   renderAll();
 
-  $('about').textContent = 'Dot Clock 1.0.0 · ' + WT.geo.cities().length + ' cities · tzdata ' +
+  $('about').textContent = 'Dot Clock 1.1.0 · ' + WT.geo.cities().length + ' cities · tzdata ' +
     WT.TZDATA_VERSION + ' · works fully offline';
 
   setInterval(() => { if (!document.hidden) refreshLive(); }, 1000);
