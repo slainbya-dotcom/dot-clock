@@ -1,0 +1,369 @@
+# Curated cities, merged with every zone in tzdata's zone.tab by tools/build_data.py.
+# name[/alias...] | admin region | ISO country | lat | lng | IANA zone | rank (1 major, 2 large, 3 other)
+# --- United States
+New York/NYC|New York|US|40.71|-74.01|America/New_York|1
+Los Angeles/LA|California|US|34.05|-118.24|America/Los_Angeles|1
+Chicago|Illinois|US|41.88|-87.63|America/Chicago|1
+Houston|Texas|US|29.76|-95.37|America/Chicago|1
+Phoenix|Arizona|US|33.45|-112.07|America/Phoenix|1
+Philadelphia|Pennsylvania|US|39.95|-75.17|America/New_York|2
+San Antonio|Texas|US|29.42|-98.49|America/Chicago|2
+San Diego|California|US|32.72|-117.16|America/Los_Angeles|2
+Dallas|Texas|US|32.78|-96.80|America/Chicago|1
+San Jose|California|US|37.34|-121.89|America/Los_Angeles|2
+Austin|Texas|US|30.27|-97.74|America/Chicago|2
+Jacksonville|Florida|US|30.33|-81.66|America/New_York|2
+Fort Worth|Texas|US|32.76|-97.33|America/Chicago|3
+Columbus|Ohio|US|39.96|-83.00|America/New_York|2
+Charlotte|North Carolina|US|35.23|-80.84|America/New_York|2
+San Francisco/SF|California|US|37.77|-122.42|America/Los_Angeles|1
+Indianapolis|Indiana|US|39.77|-86.16|America/Indiana/Indianapolis|2
+Seattle|Washington|US|47.61|-122.33|America/Los_Angeles|1
+Denver|Colorado|US|39.74|-104.99|America/Denver|1
+Washington DC/Washington|District of Columbia|US|38.91|-77.04|America/New_York|1
+Boston|Massachusetts|US|42.36|-71.06|America/New_York|1
+Nashville|Tennessee|US|36.16|-86.78|America/Chicago|2
+El Paso|Texas|US|31.76|-106.49|America/Denver|3
+Detroit|Michigan|US|42.33|-83.05|America/Detroit|2
+Oklahoma City|Oklahoma|US|35.47|-97.52|America/Chicago|3
+Portland|Oregon|US|45.52|-122.68|America/Los_Angeles|2
+Las Vegas|Nevada|US|36.17|-115.14|America/Los_Angeles|1
+Memphis|Tennessee|US|35.15|-90.05|America/Chicago|3
+Louisville|Kentucky|US|38.25|-85.76|America/Kentucky/Louisville|3
+Baltimore|Maryland|US|39.29|-76.61|America/New_York|2
+Milwaukee|Wisconsin|US|43.04|-87.91|America/Chicago|3
+Albuquerque|New Mexico|US|35.08|-106.65|America/Denver|3
+Tucson|Arizona|US|32.22|-110.97|America/Phoenix|3
+Sacramento|California|US|38.58|-121.49|America/Los_Angeles|3
+Kansas City|Missouri|US|39.10|-94.58|America/Chicago|3
+Atlanta|Georgia|US|33.75|-84.39|America/New_York|1
+Miami|Florida|US|25.76|-80.19|America/New_York|1
+Orlando|Florida|US|28.54|-81.38|America/New_York|2
+Tampa|Florida|US|27.95|-82.46|America/New_York|2
+Minneapolis|Minnesota|US|44.98|-93.27|America/Chicago|2
+New Orleans|Louisiana|US|29.95|-90.07|America/Chicago|2
+Cleveland|Ohio|US|41.50|-81.69|America/New_York|3
+Pittsburgh|Pennsylvania|US|40.44|-79.99|America/New_York|3
+Cincinnati|Ohio|US|39.10|-84.51|America/New_York|3
+St. Louis/Saint Louis|Missouri|US|38.63|-90.20|America/Chicago|3
+Salt Lake City|Utah|US|40.76|-111.89|America/Denver|2
+Raleigh|North Carolina|US|35.78|-78.64|America/New_York|3
+Richmond|Virginia|US|37.54|-77.44|America/New_York|3
+Honolulu|Hawaii|US|21.31|-157.86|Pacific/Honolulu|1
+Anchorage|Alaska|US|61.22|-149.90|America/Anchorage|2
+Juneau|Alaska|US|58.30|-134.42|America/Juneau|3
+Boise|Idaho|US|43.62|-116.20|America/Boise|3
+Omaha|Nebraska|US|41.26|-95.93|America/Chicago|3
+Buffalo|New York|US|42.89|-78.88|America/New_York|3
+Hartford|Connecticut|US|41.76|-72.67|America/New_York|3
+Providence|Rhode Island|US|41.82|-71.41|America/New_York|3
+Newark|New Jersey|US|40.74|-74.17|America/New_York|3
+Birmingham|Alabama|US|33.52|-86.80|America/Chicago|3
+Charleston|South Carolina|US|32.78|-79.93|America/New_York|3
+Savannah|Georgia|US|32.08|-81.09|America/New_York|3
+San Juan|Puerto Rico|PR|18.47|-66.11|America/Puerto_Rico|2
+# --- Canada
+Toronto|Ontario|CA|43.65|-79.38|America/Toronto|1
+Montreal/Montréal|Quebec|CA|45.50|-73.57|America/Toronto|1
+Vancouver|British Columbia|CA|49.28|-123.12|America/Vancouver|1
+Calgary|Alberta|CA|51.05|-114.07|America/Edmonton|2
+Edmonton|Alberta|CA|53.55|-113.49|America/Edmonton|2
+Ottawa|Ontario|CA|45.42|-75.70|America/Toronto|1
+Winnipeg|Manitoba|CA|49.90|-97.14|America/Winnipeg|2
+Quebec City|Quebec|CA|46.81|-71.21|America/Toronto|3
+Halifax|Nova Scotia|CA|44.65|-63.58|America/Halifax|2
+Regina|Saskatchewan|CA|50.45|-104.61|America/Regina|3
+Saskatoon|Saskatchewan|CA|52.13|-106.67|America/Regina|3
+St. John's|Newfoundland|CA|47.56|-52.71|America/St_Johns|3
+Victoria|British Columbia|CA|48.43|-123.37|America/Vancouver|3
+Hamilton|Ontario|CA|43.26|-79.87|America/Toronto|3
+Whitehorse|Yukon|CA|60.72|-135.06|America/Whitehorse|3
+# --- Mexico, Central America, Caribbean
+Mexico City/CDMX||MX|19.43|-99.13|America/Mexico_City|1
+Guadalajara||MX|20.67|-103.35|America/Mexico_City|2
+Monterrey||MX|25.69|-100.32|America/Monterrey|2
+Cancún/Cancun||MX|21.16|-86.85|America/Cancun|2
+Tijuana||MX|32.51|-117.04|America/Tijuana|2
+Puebla||MX|19.04|-98.21|America/Mexico_City|3
+Mérida/Merida||MX|20.97|-89.62|America/Merida|3
+Guatemala City||GT|14.63|-90.51|America/Guatemala|2
+San Salvador||SV|13.69|-89.22|America/El_Salvador|3
+Tegucigalpa||HN|14.07|-87.19|America/Tegucigalpa|3
+Managua||NI|12.13|-86.25|America/Managua|3
+San José/San Jose||CR|9.93|-84.08|America/Costa_Rica|2
+Panama City||PA|8.98|-79.52|America/Panama|2
+Havana||CU|23.11|-82.37|America/Havana|2
+Kingston||JM|17.97|-76.79|America/Jamaica|2
+Santo Domingo||DO|18.49|-69.93|America/Santo_Domingo|2
+Port-au-Prince||HT|18.54|-72.34|America/Port-au-Prince|3
+Nassau||BS|25.05|-77.35|America/Nassau|3
+Bridgetown||BB|13.10|-59.61|America/Barbados|3
+Port of Spain||TT|10.66|-61.51|America/Port_of_Spain|3
+# --- South America
+São Paulo/Sao Paulo||BR|-23.55|-46.63|America/Sao_Paulo|1
+Rio de Janeiro/Rio||BR|-22.91|-43.17|America/Sao_Paulo|1
+Brasília/Brasilia||BR|-15.79|-47.88|America/Sao_Paulo|2
+Salvador||BR|-12.97|-38.50|America/Bahia|2
+Fortaleza||BR|-3.73|-38.52|America/Fortaleza|3
+Belo Horizonte||BR|-19.92|-43.94|America/Sao_Paulo|3
+Manaus||BR|-3.12|-60.02|America/Manaus|3
+Recife||BR|-8.05|-34.88|America/Recife|3
+Porto Alegre||BR|-30.03|-51.23|America/Sao_Paulo|3
+Curitiba||BR|-25.43|-49.27|America/Sao_Paulo|3
+Buenos Aires||AR|-34.60|-58.38|America/Argentina/Buenos_Aires|1
+Córdoba/Cordoba||AR|-31.42|-64.18|America/Argentina/Cordoba|3
+Mendoza||AR|-32.89|-68.84|America/Argentina/Mendoza|3
+Santiago||CL|-33.45|-70.67|America/Santiago|1
+Lima||PE|-12.05|-77.04|America/Lima|1
+Bogotá/Bogota||CO|4.71|-74.07|America/Bogota|1
+Medellín/Medellin||CO|6.24|-75.58|America/Bogota|2
+Cali||CO|3.45|-76.53|America/Bogota|3
+Cartagena||CO|10.39|-75.48|America/Bogota|3
+Caracas||VE|10.48|-66.90|America/Caracas|2
+Quito||EC|-0.18|-78.47|America/Guayaquil|2
+Guayaquil||EC|-2.19|-79.89|America/Guayaquil|3
+La Paz||BO|-16.50|-68.15|America/La_Paz|2
+Santa Cruz||BO|-17.78|-63.18|America/La_Paz|3
+Asunción/Asuncion||PY|-25.26|-57.58|America/Asuncion|2
+Montevideo||UY|-34.90|-56.16|America/Montevideo|2
+Georgetown||GY|6.80|-58.16|America/Guyana|3
+Paramaribo||SR|5.85|-55.20|America/Paramaribo|3
+# --- UK & Ireland
+London|England|GB|51.51|-0.13|Europe/London|1
+Manchester|England|GB|53.48|-2.24|Europe/London|2
+Birmingham|England|GB|52.49|-1.89|Europe/London|2
+Liverpool|England|GB|53.41|-2.98|Europe/London|2
+Leeds|England|GB|53.80|-1.55|Europe/London|3
+Bristol|England|GB|51.45|-2.59|Europe/London|3
+Newcastle|England|GB|54.98|-1.61|Europe/London|3
+Sheffield|England|GB|53.38|-1.47|Europe/London|3
+Nottingham|England|GB|52.95|-1.15|Europe/London|3
+Cambridge|England|GB|52.21|0.12|Europe/London|3
+Oxford|England|GB|51.75|-1.26|Europe/London|3
+Brighton|England|GB|50.82|-0.14|Europe/London|3
+Edinburgh|Scotland|GB|55.95|-3.19|Europe/London|2
+Glasgow|Scotland|GB|55.86|-4.25|Europe/London|2
+Aberdeen|Scotland|GB|57.15|-2.09|Europe/London|3
+Cardiff|Wales|GB|51.48|-3.18|Europe/London|2
+Belfast|Northern Ireland|GB|54.60|-5.93|Europe/London|2
+Dublin||IE|53.35|-6.26|Europe/Dublin|1
+Cork||IE|51.90|-8.47|Europe/Dublin|3
+Galway||IE|53.27|-9.05|Europe/Dublin|3
+# --- Europe
+Paris||FR|48.86|2.35|Europe/Paris|1
+Lyon||FR|45.76|4.84|Europe/Paris|2
+Marseille||FR|43.30|5.37|Europe/Paris|2
+Nice||FR|43.70|7.27|Europe/Paris|3
+Toulouse||FR|43.60|1.44|Europe/Paris|3
+Bordeaux||FR|44.84|-0.58|Europe/Paris|3
+Berlin||DE|52.52|13.40|Europe/Berlin|1
+Munich/München||DE|48.14|11.58|Europe/Berlin|2
+Frankfurt||DE|50.11|8.68|Europe/Berlin|2
+Hamburg||DE|53.55|9.99|Europe/Berlin|2
+Cologne/Köln||DE|50.94|6.96|Europe/Berlin|3
+Düsseldorf/Dusseldorf||DE|51.23|6.77|Europe/Berlin|3
+Stuttgart||DE|48.78|9.18|Europe/Berlin|3
+Madrid||ES|40.42|-3.70|Europe/Madrid|1
+Barcelona||ES|41.39|2.17|Europe/Madrid|1
+Valencia||ES|39.47|-0.38|Europe/Madrid|3
+Seville/Sevilla||ES|37.39|-5.98|Europe/Madrid|3
+Málaga/Malaga||ES|36.72|-4.42|Europe/Madrid|3
+Palma||ES|39.57|2.65|Europe/Madrid|3
+Las Palmas||ES|28.12|-15.43|Atlantic/Canary|3
+Lisbon/Lisboa||PT|38.72|-9.14|Europe/Lisbon|1
+Porto||PT|41.15|-8.61|Europe/Lisbon|2
+Rome/Roma||IT|41.90|12.50|Europe/Rome|1
+Milan/Milano||IT|45.46|9.19|Europe/Rome|1
+Naples/Napoli||IT|40.85|14.27|Europe/Rome|2
+Turin/Torino||IT|45.07|7.69|Europe/Rome|3
+Florence/Firenze||IT|43.77|11.26|Europe/Rome|3
+Venice/Venezia||IT|45.44|12.32|Europe/Rome|3
+Bologna||IT|44.49|11.34|Europe/Rome|3
+Amsterdam||NL|52.37|4.90|Europe/Amsterdam|1
+Rotterdam||NL|51.92|4.48|Europe/Amsterdam|2
+The Hague/Den Haag||NL|52.08|4.30|Europe/Amsterdam|3
+Brussels/Bruxelles||BE|50.85|4.35|Europe/Brussels|1
+Antwerp||BE|51.22|4.40|Europe/Brussels|3
+Luxembourg||LU|49.61|6.13|Europe/Luxembourg|2
+Zurich/Zürich||CH|47.38|8.54|Europe/Zurich|1
+Geneva/Genève||CH|46.20|6.14|Europe/Zurich|2
+Bern||CH|46.95|7.45|Europe/Zurich|3
+Basel||CH|47.56|7.59|Europe/Zurich|3
+Vienna/Wien||AT|48.21|16.37|Europe/Vienna|1
+Salzburg||AT|47.81|13.04|Europe/Vienna|3
+Copenhagen||DK|55.68|12.57|Europe/Copenhagen|1
+Stockholm||SE|59.33|18.07|Europe/Stockholm|1
+Gothenburg||SE|57.71|11.97|Europe/Stockholm|3
+Oslo||NO|59.91|10.75|Europe/Oslo|1
+Bergen||NO|60.39|5.32|Europe/Oslo|3
+Helsinki||FI|60.17|24.94|Europe/Helsinki|1
+Reykjavík/Reykjavik||IS|64.15|-21.94|Atlantic/Reykjavik|2
+Warsaw||PL|52.23|21.01|Europe/Warsaw|1
+Kraków/Krakow||PL|50.06|19.94|Europe/Warsaw|2
+Gdańsk/Gdansk||PL|54.35|18.65|Europe/Warsaw|3
+Wrocław/Wroclaw||PL|51.11|17.04|Europe/Warsaw|3
+Prague/Praha||CZ|50.08|14.44|Europe/Prague|1
+Brno||CZ|49.20|16.61|Europe/Prague|3
+Bratislava||SK|48.15|17.11|Europe/Bratislava|2
+Budapest||HU|47.50|19.04|Europe/Budapest|1
+Bucharest||RO|44.43|26.10|Europe/Bucharest|1
+Cluj-Napoca||RO|46.77|23.60|Europe/Bucharest|3
+Sofia||BG|42.70|23.32|Europe/Sofia|2
+Athens||GR|37.98|23.73|Europe/Athens|1
+Thessaloniki||GR|40.64|22.94|Europe/Athens|3
+Belgrade||RS|44.79|20.45|Europe/Belgrade|2
+Zagreb||HR|45.81|15.98|Europe/Zagreb|2
+Split||HR|43.51|16.44|Europe/Zagreb|3
+Ljubljana||SI|46.06|14.51|Europe/Ljubljana|2
+Sarajevo||BA|43.86|18.41|Europe/Sarajevo|3
+Skopje||MK|42.00|21.43|Europe/Skopje|3
+Tirana||AL|41.33|19.82|Europe/Tirane|3
+Podgorica||ME|42.44|19.26|Europe/Podgorica|3
+Kyiv/Kiev||UA|50.45|30.52|Europe/Kyiv|1
+Lviv||UA|49.84|24.03|Europe/Kyiv|3
+Odesa/Odessa||UA|46.48|30.73|Europe/Kyiv|3
+Chișinău/Chisinau||MD|47.01|28.86|Europe/Chisinau|3
+Minsk||BY|53.90|27.56|Europe/Minsk|2
+Vilnius||LT|54.69|25.28|Europe/Vilnius|2
+Riga||LV|56.95|24.11|Europe/Riga|2
+Tallinn||EE|59.44|24.75|Europe/Tallinn|2
+Moscow||RU|55.76|37.62|Europe/Moscow|1
+Saint Petersburg/St Petersburg||RU|59.93|30.34|Europe/Moscow|1
+Kazan||RU|55.79|49.12|Europe/Moscow|3
+Istanbul||TR|41.01|28.98|Europe/Istanbul|1
+Ankara||TR|39.93|32.86|Europe/Istanbul|2
+Izmir||TR|38.42|27.14|Europe/Istanbul|3
+Antalya||TR|36.90|30.70|Europe/Istanbul|3
+Valletta||MT|35.90|14.51|Europe/Malta|3
+Nicosia||CY|35.17|33.36|Asia/Nicosia|3
+Monaco||MC|43.74|7.42|Europe/Monaco|3
+# --- Middle East
+Dubai||AE|25.20|55.27|Asia/Dubai|1
+Abu Dhabi||AE|24.45|54.38|Asia/Dubai|2
+Doha||QA|25.29|51.53|Asia/Qatar|2
+Riyadh||SA|24.71|46.68|Asia/Riyadh|1
+Jeddah||SA|21.49|39.19|Asia/Riyadh|2
+Mecca||SA|21.39|39.86|Asia/Riyadh|3
+Kuwait City||KW|29.38|47.99|Asia/Kuwait|2
+Manama||BH|26.23|50.59|Asia/Bahrain|3
+Muscat||OM|23.59|58.41|Asia/Muscat|3
+Tel Aviv||IL|32.09|34.78|Asia/Jerusalem|1
+Jerusalem||IL|31.77|35.21|Asia/Jerusalem|2
+Amman||JO|31.95|35.93|Asia/Amman|2
+Beirut||LB|33.89|35.50|Asia/Beirut|2
+Damascus||SY|33.51|36.29|Asia/Damascus|3
+Baghdad||IQ|33.31|44.37|Asia/Baghdad|2
+Erbil||IQ|36.19|44.01|Asia/Baghdad|3
+Tehran||IR|35.69|51.39|Asia/Tehran|1
+# --- Africa
+Cairo||EG|30.04|31.24|Africa/Cairo|1
+Alexandria||EG|31.20|29.92|Africa/Cairo|3
+Lagos||NG|6.52|3.38|Africa/Lagos|1
+Abuja||NG|9.08|7.40|Africa/Lagos|2
+Nairobi||KE|-1.29|36.82|Africa/Nairobi|1
+Mombasa||KE|-4.04|39.67|Africa/Nairobi|3
+Johannesburg/Joburg||ZA|-26.20|28.05|Africa/Johannesburg|1
+Cape Town||ZA|-33.92|18.42|Africa/Johannesburg|1
+Durban||ZA|-29.86|31.03|Africa/Johannesburg|2
+Pretoria||ZA|-25.75|28.19|Africa/Johannesburg|3
+Casablanca||MA|33.57|-7.59|Africa/Casablanca|2
+Marrakesh/Marrakech||MA|31.63|-7.99|Africa/Casablanca|3
+Rabat||MA|34.02|-6.84|Africa/Casablanca|3
+Tunis||TN|36.81|10.18|Africa/Tunis|2
+Algiers||DZ|36.75|3.06|Africa/Algiers|2
+Accra||GH|5.60|-0.19|Africa/Accra|2
+Addis Ababa||ET|9.03|38.74|Africa/Addis_Ababa|2
+Dar es Salaam||TZ|-6.79|39.21|Africa/Dar_es_Salaam|2
+Zanzibar||TZ|-6.16|39.19|Africa/Dar_es_Salaam|3
+Kampala||UG|0.35|32.58|Africa/Kampala|2
+Kigali||RW|-1.95|30.06|Africa/Kigali|3
+Kinshasa||CD|-4.44|15.27|Africa/Kinshasa|2
+Luanda||AO|-8.84|13.23|Africa/Luanda|2
+Dakar||SN|14.72|-17.47|Africa/Dakar|2
+Abidjan||CI|5.36|-4.01|Africa/Abidjan|2
+Harare||ZW|-17.83|31.05|Africa/Harare|2
+Lusaka||ZM|-15.39|28.32|Africa/Lusaka|3
+Maputo||MZ|-25.97|32.57|Africa/Maputo|3
+Windhoek||NA|-22.56|17.08|Africa/Windhoek|3
+Gaborone||BW|-24.63|25.92|Africa/Gaborone|3
+Khartoum||SD|15.50|32.56|Africa/Khartoum|3
+Tripoli||LY|32.89|13.19|Africa/Tripoli|3
+Port Louis||MU|-20.16|57.50|Indian/Mauritius|3
+Antananarivo||MG|-18.88|47.51|Indian/Antananarivo|3
+# --- South Asia
+Mumbai/Bombay|Maharashtra|IN|19.08|72.88|Asia/Kolkata|1
+Delhi/New Delhi|Delhi|IN|28.61|77.21|Asia/Kolkata|1
+Bengaluru/Bangalore|Karnataka|IN|12.97|77.59|Asia/Kolkata|1
+Chennai/Madras|Tamil Nadu|IN|13.08|80.27|Asia/Kolkata|2
+Kolkata/Calcutta|West Bengal|IN|22.57|88.36|Asia/Kolkata|2
+Hyderabad|Telangana|IN|17.39|78.49|Asia/Kolkata|2
+Pune|Maharashtra|IN|18.52|73.86|Asia/Kolkata|2
+Ahmedabad|Gujarat|IN|23.02|72.57|Asia/Kolkata|3
+Jaipur|Rajasthan|IN|26.91|75.79|Asia/Kolkata|3
+Kochi/Cochin|Kerala|IN|9.93|76.27|Asia/Kolkata|3
+Goa|Goa|IN|15.49|73.83|Asia/Kolkata|3
+Karachi||PK|24.86|67.01|Asia/Karachi|1
+Lahore||PK|31.55|74.34|Asia/Karachi|2
+Islamabad||PK|33.68|73.05|Asia/Karachi|2
+Dhaka||BD|23.81|90.41|Asia/Dhaka|1
+Chittagong||BD|22.36|91.78|Asia/Dhaka|3
+Colombo||LK|6.93|79.86|Asia/Colombo|2
+Kathmandu||NP|27.72|85.32|Asia/Kathmandu|2
+# --- East & South-East Asia
+Tokyo||JP|35.68|139.69|Asia/Tokyo|1
+Osaka||JP|34.69|135.50|Asia/Tokyo|1
+Kyoto||JP|35.01|135.77|Asia/Tokyo|2
+Yokohama||JP|35.44|139.64|Asia/Tokyo|3
+Nagoya||JP|35.18|136.91|Asia/Tokyo|3
+Sapporo||JP|43.06|141.35|Asia/Tokyo|3
+Fukuoka||JP|33.59|130.40|Asia/Tokyo|3
+Naha/Okinawa||JP|26.21|127.68|Asia/Tokyo|3
+Seoul||KR|37.57|126.98|Asia/Seoul|1
+Busan||KR|35.18|129.08|Asia/Seoul|2
+Incheon||KR|37.46|126.71|Asia/Seoul|3
+Beijing/Peking||CN|39.90|116.41|Asia/Shanghai|1
+Shanghai||CN|31.23|121.47|Asia/Shanghai|1
+Guangzhou/Canton||CN|23.13|113.26|Asia/Shanghai|1
+Shenzhen||CN|22.54|114.06|Asia/Shanghai|1
+Chengdu||CN|30.57|104.07|Asia/Shanghai|2
+Chongqing||CN|29.56|106.55|Asia/Shanghai|2
+Wuhan||CN|30.59|114.31|Asia/Shanghai|2
+Hangzhou||CN|30.27|120.16|Asia/Shanghai|2
+Xi'an/Xian||CN|34.34|108.94|Asia/Shanghai|3
+Nanjing||CN|32.06|118.80|Asia/Shanghai|3
+Tianjin||CN|39.34|117.36|Asia/Shanghai|3
+Suzhou||CN|31.30|120.59|Asia/Shanghai|3
+Hong Kong||HK|22.32|114.17|Asia/Hong_Kong|1
+Macau/Macao||MO|22.20|113.55|Asia/Macau|2
+Taipei||TW|25.03|121.57|Asia/Taipei|1
+Kaohsiung||TW|22.63|120.30|Asia/Taipei|3
+Singapore||SG|1.35|103.82|Asia/Singapore|1
+Kuala Lumpur/KL||MY|3.14|101.69|Asia/Kuala_Lumpur|1
+George Town/Penang||MY|5.41|100.33|Asia/Kuala_Lumpur|3
+Bangkok||TH|13.76|100.50|Asia/Bangkok|1
+Phuket||TH|7.88|98.39|Asia/Bangkok|3
+Chiang Mai||TH|18.79|98.98|Asia/Bangkok|3
+Ho Chi Minh City/Saigon||VN|10.82|106.63|Asia/Ho_Chi_Minh|1
+Hanoi||VN|21.03|105.85|Asia/Ho_Chi_Minh|2
+Da Nang||VN|16.05|108.22|Asia/Ho_Chi_Minh|3
+Jakarta||ID|-6.21|106.85|Asia/Jakarta|1
+Surabaya||ID|-7.25|112.75|Asia/Jakarta|3
+Denpasar/Bali||ID|-8.65|115.22|Asia/Makassar|2
+Manila||PH|14.60|120.98|Asia/Manila|1
+Cebu||PH|10.32|123.89|Asia/Manila|3
+Astana||KZ|51.17|71.43|Asia/Almaty|3
+# --- Oceania
+Sydney|New South Wales|AU|-33.87|151.21|Australia/Sydney|1
+Melbourne|Victoria|AU|-37.81|144.96|Australia/Melbourne|1
+Brisbane|Queensland|AU|-27.47|153.03|Australia/Brisbane|1
+Perth|Western Australia|AU|-31.95|115.86|Australia/Perth|1
+Adelaide|South Australia|AU|-34.93|138.60|Australia/Adelaide|1
+Hobart|Tasmania|AU|-42.88|147.33|Australia/Hobart|2
+Darwin|Northern Territory|AU|-12.46|130.84|Australia/Darwin|2
+Canberra|Australian Capital Territory|AU|-35.28|149.13|Australia/Sydney|2
+Gold Coast|Queensland|AU|-28.02|153.40|Australia/Brisbane|3
+Cairns|Queensland|AU|-16.92|145.77|Australia/Brisbane|3
+Auckland||NZ|-36.85|174.76|Pacific/Auckland|1
+Wellington||NZ|-41.29|174.78|Pacific/Auckland|2
+Christchurch||NZ|-43.53|172.64|Pacific/Auckland|2
+Queenstown||NZ|-45.03|168.66|Pacific/Auckland|3

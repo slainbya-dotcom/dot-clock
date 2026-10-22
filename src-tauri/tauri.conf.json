@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Dot Clock",
+  "version": "1.0.0",
+  "identifier": "app.worldtime.dotmatrix",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "Dot Clock",
+        "url": "index.html",
+        "width": 360,
+        "height": 120,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "resizable": false,
+        "maximizable": false,
+        "alwaysOnTop": false,
+        "acceptFirstMouse": true,
+        "visible": false,
+        "center": true
+      },
+      {
+        "label": "settings",
+        "title": "Dot Clock — Settings",
+        "url": "settings.html",
+        "width": 540,
+        "height": 760,
+        "minWidth": 460,
+        "minHeight": 520,
+        "visible": false,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self' ipc: http://ipc.localhost; img-src 'self' data:; connect-src ipc: http://ipc.localhost; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Utility",
+    "shortDescription": "Dot-matrix world clock",
+    "longDescription": "A lightweight desktop widget that shows the time in multiple cities in a dot-matrix style.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "wix": {
+        "language": "en-US"
+      }
+    },
+    "macOS": {
+      "minimumSystemVersion": "10.15",
+      "signingIdentity": "-",
+      "entitlements": "./Entitlements.plist"
+    }
+  }
+}
